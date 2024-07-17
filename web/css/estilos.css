@@ -1,0 +1,122 @@
+/* Reset y estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Fuente retro */
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    background-color: #1c1c1c; /* Fondo negro */
+    color: #f0f0f0; /* Texto claro */
+    font-family: 'Rock Salt', cursive; /* Fuente roquera */
+    margin: 0;
+    padding: 0;
+}
+
+/* Formularios */
+form {
+    margin-top: 30px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Sombra más intensa */
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #2e2e2e, #3a3a3a); /* Degradado oscuro */
+    border: 2px solid #800080; /* Borde morado */
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh; /* Altura mínima de la ventana */
+}
+
+/* Estilos para inputs */
+input {
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    height: 35px;
+    background-color: #333333;
+    border: 2px solid #800080; /* Borde morado */
+    border-radius: 5px;
+    padding-left: 15px;
+    color: #f0f0f0; /* Texto claro */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff0000; /* Borde rojo al enfocarse */
+}
+
+/* Botones */
+button {
+    margin-top: 15px;
+    height: 40px;
+    background-color: #800080; /* Fondo morado */
+    border: 0;
+    border-radius: 5px;
+    width: 85%;
+    cursor: pointer;
+    color: #f0f0f0; /* Texto claro */
+    font-family: 'Rock Salt', cursive;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+}
+
+button:hover {
+    background-color: #4b0082; /* Fondo morado oscuro */
+    transform: scale(1.05); /* Efecto de aumento */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); /* Sombra más intensa al pasar el mouse */
+}
+
+/* Indicadores de validación */
+.tacheNombre, .tacheCelular, .tacheCorreo {
+    color: #ff0000; /* Rojo */
+}
+
+.input-tache {
+    background-color: #4d0000; /* Fondo rojo oscuro */
+    border: 2px solid #ff0000; /* Borde rojo */
+}
+
+.mensajeNombre, .mensajeCelular, .mensajeCorreo {
+    font-size: small;
+    color: #ff0000; /* Rojo */
+}
+
+.buenaNombre, .buenaCelular, .buenaCorreo {
+    color: #00ff9d; /* Verde neón */
+}
+
+.input-buena {
+    background-color: #004d33; /* Fondo verde oscuro */
+    border: 2px solid #00ff9d; /* Borde verde neón */
+}
+
+.ocultar {
+    display: none;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #800080; /* Morado */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000; /* Rojo */
+    text-decoration: underline;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #800080; /* Morado */
+    text-shadow: 2px 2px 4px #000; /* Sombra intensa */
+    font-family: 'Rock Salt', cursive; /* Fuente roquera */
+}

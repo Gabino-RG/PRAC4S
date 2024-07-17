@@ -1,0 +1,71 @@
+/* Reset y estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Fuente retro */
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; /* Altura mínima de la ventana */
+    background-color: #1c1c1c; /* Fondo negro */
+}
+
+/* Tablas */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid #800080; /* Borde morado */
+    margin: 20px 0;
+    background-color: #2e2e2e; /* Fondo oscuro para tablas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+/* Encabezado de la tabla */
+th {
+    background-color: #800080; /* Morado */
+    color: #f0f0f0; /* Texto claro */
+    padding: 15px;
+    border: 2px solid #4b3621; /* Borde marrón oscuro */
+    text-shadow: 2px 2px 4px #000; /* Sombra intensa */
+    font-family: 'Rock Salt', cursive; /* Fuente roquera */
+}
+
+/* Filas de la tabla */
+td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #4b3621; /* Borde marrón oscuro */
+    color: #f0f0f0; /* Texto claro */
+}
+
+/* Alternar colores de fila */
+tr:nth-child(odd) {
+    background-color: #333333; /* Gris oscuro */
+}
+
+tr:nth-child(even) {
+    background-color: #444444; /* Gris ligeramente más claro */
+}
+
+/* Hover en las filas */
+tr:hover {
+    background-color: #800080; /* Morado al pasar el mouse */
+    color: #f0f0f0; /* Texto claro */
+}
+
+/* Estilo para enlaces dentro de tablas */
+.table-link {
+    color: #ff0000; /* Rojo */
+    text-decoration: none;
+}
+
+.table-link:hover {
+    color: #800080; /* Morado */
+    text-decoration: underline;
+}
